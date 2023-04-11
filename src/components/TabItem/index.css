@@ -1,0 +1,43 @@
+.listItems {
+  list-style-type: none;
+  text-align: center;
+}
+
+.tabItem {
+  color: #7b8794;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+  margin-right: 15px;
+}
+
+.tabItem:hover {
+  font-family: 'Bree serif';
+}
+
+.button {
+  background-color: transparent;
+  border-width: 0;
+  cursor: pointer;
+}
+
+.borderStyle {
+  border-style: solid;
+  border-width: 0px 0px 2px 0px;
+  border-color: #2563eb;
+}
+
+.fontColor {
+  color: #2563eb;
+}
+
+@media (max-width: 768px) {
+  .tabItem {
+    font-size: 10px;
+    margin-right: 0px;
+    text-align: center;
+    margin-left: 0;
+    padding: 1;
+  }
+}
